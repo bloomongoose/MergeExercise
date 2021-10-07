@@ -11,12 +11,14 @@ namespace ConsoleApp2
 
         static bool person1(int num1, int num2)
         {
-            
+
         }
 
         static bool person2(int num1, int num2)
         {
-
+            if (num1 < num2)
+                return true;
+            return false;
         }
     }
 }
